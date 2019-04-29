@@ -34,6 +34,22 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.clojure/java.jdbc -->
+		<dependency>
+			<groupId>org.clojure</groupId>
+			<artifactId>java.jdbc</artifactId>
+			<version>0.7.9</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-entitymanager -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-entitymanager</artifactId>
+			<version>5.4.2.Final</version>
+		</dependency>
+
+
 	</dependencies>
 
 	<build>
